@@ -43,6 +43,10 @@ on boot
     chown root system /sys/devices/virtual/timed_output/vibrator/vtg_level
     chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
 
+    # Vibrator permissions
+    chown root system /sys/devices/virtual/timed_output/vibrator/vtg_level
+    chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
+
     # Proximity state
     chown system system /sys/devices/soc/soc:fpc_fpc1020/proximity_state
     chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/proximity_state
