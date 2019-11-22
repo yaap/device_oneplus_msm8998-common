@@ -33,6 +33,7 @@
 /sys/devices/virtual/graphics/fb0/night_mode                    u:object_r:sysfs_dm:s0
 /sys/devices/virtual/graphics/fb0/panel_serial_number           u:object_r:sysfs_dm:s0
 /sys/devices/virtual/graphics/fb0/adaption_mode                 u:object_r:sysfs_dm:s0
+/sys/devices/virtual/graphics/fb0/measured_fps                  u:object_r:sysfs_dm:s0
 
 # DRM
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.drmkey@1\.0-service    u:object_r:hal_drm_default_exec:s0

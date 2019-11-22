@@ -111,6 +111,10 @@
             </intent-filter>
         </service>
 
+        <service android:name="com.derp.device.DeviceSettings.FPSInfoService"
+                android:exported="false">
+        </service>
+
         <!-- Search indexing -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"

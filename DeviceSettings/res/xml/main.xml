@@ -26,6 +26,12 @@
             android:title="@string/hbm_mode_title"
             android:defaultValue="false" />
 
+        <SwitchPreference
+            android:key="fps_info"
+            android:title="@string/fps_info_title"
+            android:summary="@string/fps_info_summary"
+            android:persistent="true" />
+
         <Preference
             android:key="panel_category"
             android:title="@string/panel_category_title"
