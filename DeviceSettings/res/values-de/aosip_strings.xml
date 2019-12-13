@@ -90,6 +90,7 @@
     <string name="category_vibrator">Vibration</string>
     <string name="vib_strength_title_head">Vibrationsstärke des Systems</string>
     <string name="vib_strength_summary_head">Stärke der Vibration einstellen</string>
+    <string name="vibration_warning">Eine zu hohe Einstellung der Stärke kann zu dauerhaften Hardwareschäden führen</string>
     <!-- FPS overlay -->
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">Overlay mit aktuellen Bildern pro Sekunde anzeigen</string>
