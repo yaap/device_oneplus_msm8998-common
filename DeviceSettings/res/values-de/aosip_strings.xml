@@ -72,6 +72,7 @@
     <string name="touchscreen_gesture_action_next_track">Zum nächsten Musiktitel springen</string>
     <string name="touchscreen_gesture_action_volume_down">Medienlautstärke verringern</string>
     <string name="touchscreen_gesture_action_volume_up">Medienlautstärke erhöhen</string>
+    <string name="touchscreen_gesture_action_ambient_display">Ambient-Display anzeigen</string>
     <!-- Notification slider -->
     <string name="notification_slider_category_title">Benachrichtigungs-Slider</string>
     <string name="notification_slider_selection_dialog_title">Aktion</string>
