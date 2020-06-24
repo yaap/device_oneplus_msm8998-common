@@ -448,6 +448,10 @@ PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/msm8998-common \
     hardware/google/pixel
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.oneplus_msm8998
+
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
