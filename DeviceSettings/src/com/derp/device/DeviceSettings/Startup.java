@@ -21,6 +21,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.provider.Settings;
 import android.text.TextUtils;
 import androidx.preference.PreferenceManager;
@@ -56,6 +57,12 @@ public class Startup extends BroadcastReceiver {
             context.startService(new Intent(context, FPSInfoService.class));
         }
         VibratorStrengthPreference.restore(context);
+
+        if (Build.DEVICE.equals("OnePlus5")) {
+            restore("/proc/flicker_free/min_brightness", "66");
+        } else if (Build.DEVICE.equals("OnePlus5T")) {
+            restore("/proc/flicker_free/min_brightness", "302");
+        }
     }
 
     private void restore(String file, boolean enabled) {
