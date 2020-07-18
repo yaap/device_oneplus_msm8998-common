@@ -59,7 +59,7 @@ public class TouchKeyHandler implements DeviceKeyHandler {
     private static final String GESTURE_WAKEUP_REASON = "touchscreen-gesture-wakeup";
     private static final String PULSE_ACTION = "com.android.systemui.doze.pulse";
     private static final int GESTURE_REQUEST = 0;
-    private static final int GESTURE_WAKELOCK_DURATION = 3000;
+    private static final int GESTURE_WAKELOCK_DURATION = 1500;
     private static final int EVENT_PROCESS_WAKELOCK_DURATION = 500;
 
     private final Context mContext;
