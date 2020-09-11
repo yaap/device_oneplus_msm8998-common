@@ -198,14 +198,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0 \
     vendor.display.config@1.0_vendor
 
-# Device
-PRODUCT_PACKAGES += \
-    DeviceParts
-
-# Device
-PRODUCT_PACKAGES += \
-    DeviceParts
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -266,13 +258,6 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,${LOCAL_PATH}/prebuilt/vendor,$(TARGET_COPY_OUT_VENDOR))
-
-# IFAA (Fingerprint support for Alipay)
-PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
-
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager \
 
 # IPv6
 PRODUCT_PACKAGES += \
