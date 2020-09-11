@@ -91,6 +91,10 @@ PRODUCT_COPY_FILES += \
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
