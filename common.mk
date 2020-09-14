@@ -402,7 +402,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0 \
     librmnetctl \
     libxml2 \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-lite
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -413,7 +414,7 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-		ims_ext_common.xml \
+	ims_ext_common.xml \
 
 PRODUCT_BOOT_JARS += \
     ims-ext-common_system \
@@ -477,9 +478,10 @@ PRODUCT_PACKAGES += \
     vndk-sp \
     com.android.vndk.current.on_vendor
 
+# VNDK 29 prebuilts
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full.so \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite.so
+    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-v29.so \
+    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-v29.so
 
 # HWBinder
 PRODUCT_PACKAGES += \
