@@ -186,7 +186,7 @@ vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libfastrpc_utf_stub.so
 
 # CNE
--product/priv-app/CneApp/CneApp.apk
+-vendor/app/CneApp/CneApp.apk
 etc/cne/Nexus/ATT/ATT_profiles.xml
 etc/cne/Nexus/ROW/ROW_profiles.xml
 etc/cne/Nexus/VZW/VZW_profiles.xml
@@ -1611,7 +1611,7 @@ vendor/etc/thermal-engine.conf
 vendor/lib64/libthermalioctl.so
 
 # Time
-vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um
+-vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um
 vendor/bin/time_daemon|553c69f6436187e1c210da26e3f45ac0d739e947
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
