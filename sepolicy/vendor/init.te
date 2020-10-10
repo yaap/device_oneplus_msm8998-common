@@ -13,3 +13,4 @@ allow init vendor_file:file execute;
 allow init hal_perf_hwservice:hwservice_manager find;
 allow init hal_power_hwservice:hwservice_manager { add find };
 allow init hidl_base_hwservice:hwservice_manager add;
+allow init default_android_hwservice:hwservice_manager { add find };
