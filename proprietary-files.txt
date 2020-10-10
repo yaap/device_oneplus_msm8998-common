@@ -361,9 +361,6 @@ vendor/lib/libarcsoft_hdr_denoise_api.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_smart_denoise.so
 
-# Camera-bin
-vendor/bin/hw/vendor.oneplus.camera.CameraHIDL@1.0-service
-
 # Camera-chromatix
 vendor/lib/libchromatix_imx350_3a_1536x866_30fps_video.so
 vendor/lib/libchromatix_imx350_3a_2304x1300_30fps_preview.so
@@ -594,16 +591,6 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
-
-# Camera-OnePlus
--framework/vendor.oneplus.camera.CameraHIDL-V1.0-java.jar
-vendor/bin/hw/vendor.oneplus.camera.CameraHIDL@1.0-service
-vendor/etc/init/vendor.oneplus.camera.CameraHIDL@1.0-service.rc
-vendor/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
-lib/vendor.oneplus.camera.CameraHIDL@1.0.so
-lib/vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper.so
-lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
-lib64/vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper.so
 
 # DPM
 -framework/tcmclient.jar
@@ -1611,7 +1598,7 @@ vendor/etc/thermal-engine.conf
 vendor/lib64/libthermalioctl.so
 
 # Time
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon|553c69f6436187e1c210da26e3f45ac0d739e947
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
